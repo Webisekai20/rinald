@@ -1,1 +1,1 @@
-# rinald.github.io
+Anata wa orokadesu
