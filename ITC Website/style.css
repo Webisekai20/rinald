@@ -1,0 +1,88 @@
+
+#header {
+  background-color: #000000;
+  height: 2cm;
+  text-align: center;
+  
+}
+header nav {padding-top: 25px;}
+header a {
+  padding: 2% 2% 2% 2%;
+  margin: 0.5%;
+  font-size: 0.5cm;
+  color: aliceblue;
+  text-decoration: none;
+}
+.navigate a:hover {
+  background-color: #2d2c2e;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  margin: 0%;
+    
+}
+
+
+
+.Landing_page {
+
+  background-image: url(/images/best\ Landing\ page.avif);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+
+  border: 50%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: bisque;
+  float: Center;
+  text-align: center;
+  font-size: 300%;
+  padding-top: 10%;
+}
+
+/* .landingText {
+  border: none;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.8); 
+  filter: blur(0.25%); 
+}
+
+.landingText h1 {
+  filter: blur(0);
+} */
+
+.getStarted {
+  border: 1px solid gray(255, 254, 254);
+  
+  color: azure;
+  padding-bottom: 40%;
+}
+
+.landingIntro {
+  margin: 10%;
+  
+}
+
+/* .home-top {
+  background-color: aquamarine;
+  background-image: repeating-linear-gradient(to right, aquamarine, aqua);
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.home-top a:hover {
+  background-color: #2d2c2e;
+  color: rgb(255, 255, 255);
+}
+
+.tagline {
+  font-size: xxx-large;
+}
+
+.getStarted {
+  font-size: x-large;
+} */
