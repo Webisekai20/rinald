@@ -1,1 +1,0 @@
-Anata wa orokadesu
