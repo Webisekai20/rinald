@@ -136,6 +136,9 @@ section {
   text-indent: 5vh;
 }
 /* features */
+.horizontal-features img{
+  filter: brightness(70%);
+}
 .horizontal-features {
   list-style-type: none; 
   margin: 0;
@@ -175,25 +178,182 @@ section {
 }
 
 .horizontal-portfolio-list {
-  display: flex;
-  flex-direction: row; 
+  display: flex; 
   align-items: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.375);
+  margin-right: 5vh;
 }
 
 .portfolio-box-container li {
   margin: 1%;
   display: flex;
-  padding: 0 8% 0 8%;
+  padding-left: 10vh;
+  padding-right: 10vh;
 }
 
-.portfolio-image-frame {
+.portfolio-image-frame-1 {
   display: flex;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.375);
+  padding-right: 1vh;
+  
+}
+.portfolio-box-container img{
+  filter: brightness(85%);
+}
+
+.horizontal-portfolio-list h3 {
+  margin-left: 1vh;
+}
+
+.portfolio-image-frame-2 {
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.375);
+  padding-right: 18vh;
+  margin-left: 2vh;
+}
+
+.portfolio-image-frame-3 {
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.375);
+  padding-right: 5vh;
+  margin-right: 2vh;
+}
+.portfolio-image-frame-3 h3 {
+  width: 25vh;  
+}
+
+.portfolio-image-frame-4 {
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.375);
+  margin-right: 6vh;
+  height: 22vh;
 }
 
 .portfolio-box-container img {
   width: 30vh; 
   height: auto;
-
 }
+
+.Portfolio-header {
+  text-align: center;
+}
+
+.portfolio-image-frame-5 {
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.375);
+  padding-right: 0vh;
+  margin-right: 2vh;
+  height: 21vh;
+}
+
+.portfolio-image-frame-6 {
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.375);
+  padding-right: 8vh;
+  margin-right: 6vh;
+  height: 21vh;
+}
+
+/* REVIEW SECTION */
+.review{
+  box-shadow: none;
+}
+.horizontal-reviews {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  text-align: center;
+  height: 25vh;
+  padding-left: 45vh;
+  padding-top: 7vh;
+  padding-bottom: 5vh;
+}
+
+.horizontal-reviews li {
+  margin-right: 20vh;
+  list-style-type: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.375);
+  padding: 1dvh;
+}
+
+.reviwer-profile-image img{
+  width: 20vh; 
+  height: auto;
+}
+
+
+
+/* footer section */
+footer {
+  background-color: rgba(0, 106, 255, 0.477);
+  height: 25vh;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: row; 
+  text-align: center;
+  height: 15vh;
+  padding-left: 45vh;
+  padding-right: 50vh;
+  padding-top: 5vh;
+  padding-bottom: 0vh;
+}
+
+.footer-section li {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  list-style-type: none;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.375); */
+  padding: 1vh;
+}
+
+.company-profile {
+  display: flex;
+  text-align: left;
+  padding-right: 1vh;
+  margin-right: 5vh;
+  padding-left: 8vh;
+}
+
+.company-profile img{
+  width: 15vh; 
+  height: 15vh;
+}
+.company-profile p {
+  width: 20vh;
+  margin: 1vh;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.375); */
+}
+.company-details {
+  padding-right: 7vh;
+  text-align: left;
+} 
+.company-details h4{
+  width: 20vh;
+}
+
+.socials {
+  width: 0vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.662);
+}
+
+.socials div {
+  display: flex;
+  flex-direction: row;
+}
+
+.socials img {
+  width: 8vh; 
+  height: auto;
+  margin: 1vh;
+  border-radius: 80px;
+}
+
+
+
+
+
+/* 
